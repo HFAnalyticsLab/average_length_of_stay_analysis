@@ -1,3 +1,5 @@
+#ALOS Analysis
+
 This repository contains the R code required to reproduce the analysis from the following report: https://www.health.org.uk/publications/long-reads/what-s-driving-increasing-length-of-stay-in-hospitals-since-2019 
 
 The data uses Hospital Episode Activity from 2015 to 2022.
