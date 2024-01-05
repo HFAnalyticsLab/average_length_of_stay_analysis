@@ -1,5 +1,22 @@
-#**Average Length of Stay Analysis**
+# **Average Length of Stay Analysis**
 
-This repository contains the R code required to reproduce the analysis from the following report: https://www.health.org.uk/publications/long-reads/what-s-driving-increasing-length-of-stay-in-hospitals-since-2019 
+## Project Description
 
-The data uses Hospital Episode Activity from 2015 to 2022.
+- This analysis provides insight into what may have been driving increased length of stay in hospitals between 2019 and 2022. Analysis has concentrated on changes in patient demographics, including age, clinical complexity and other conditions such as COVID-19.
+- The long chart for this analysis can be accessed here: https://www.health.org.uk/publications/long-reads/what-s-driving-increasing-length-of-stay-in-hospitals-since-2019 
+
+
+## Data sources
+
+This analysis used Hospital Episode Statistics (HES) between calendar years 2015 and 2022. 
+  
+## Requirements
+
+R scripts were written in R 4.1.3 and run in RStudio.
+
+## Getting started
+
+  * ' 01_HES_Episode_level_data_prep.r' aggregates hospital episode level data to stay level for each year.
+  * ' 02a_HES_patient_characteristics_2015_2019.r' produces patient characteristic information for each calendar year from 2015 to 2019.
+  * ' 02b_HES_patient_characteristics_2022.r' produces patient characteristic information for calendar year 2022.
+  * ' # 03_Data_for_Graphing.r' produces the figure outputs for the Length of Stay long chart.
